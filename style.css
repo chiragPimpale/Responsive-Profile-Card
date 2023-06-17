@@ -17,6 +17,9 @@ body {
 }
 
 .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 370px;
   width: 100%;
   background: #fff;
@@ -32,6 +35,7 @@ body {
   border-radius: 50%;
   background-color: #4070f4;
   padding: 3px;
+  margin: 10px;
 }
 
 .image .profile-image {
@@ -40,4 +44,10 @@ body {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
+}
+
+.profile-card .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
